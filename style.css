@@ -1,0 +1,85 @@
+/* Base layout and font */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+/* Container for the to-do list app */
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input and button row */
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input styling */
+#task-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #5a67d8;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #434190;
+}
+
+/* Task list */
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+/* Each task item */
+li {
+  background: #edf2f7;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Completed tasks look greyed out */
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Delete button */
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
