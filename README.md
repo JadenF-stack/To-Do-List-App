@@ -1,2 +1,17 @@
-# To-Do-List-App
-A simple and responsive to-do list web app built with HTML, CSS, and JavaScript. Some of the features include DOM manipulation, task creation and deletion (CRUD), and persistent data using localStorage.
+# ✅ To-Do List App
+
+A simple and clean to-do list web app that allows users to create, complete, and delete tasks. Tasks persist using localStorage, so they remain after refreshing the page.
+
+## 🚀 Features
+- Add tasks
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Tasks persist with localStorage
+
+## 🛠️ Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+Created by **Jaden Fearon** 
+
